@@ -8,6 +8,7 @@ public class User {
 <<<<<<< HEAD
 <<<<<<< HEAD
     public User() {
+
     }
 
     public User(Integer id, String name, String pass) {

@@ -21,4 +21,52 @@ public class BookModel {
         this.book_synopsis = synopsis;
     }
 
+    public Integer getBook_id() {
+        return book_id;
+    }
+
+    public String getBook_title() {
+        return book_title;
+    }
+
+    public Double getBook_price() {
+        return book_price;
+    }
+
+    public Integer getBook_quantity() {
+        return book_quantity;
+    }
+
+    public String getBook_details() {
+        return book_details;
+    }
+
+    public String getBook_category() {
+        return book_category;
+    }
+
+    public String getBook_synopsis() {
+        return book_synopsis;
+    }
+
+    public void createBook(){
+
+    }
+
+    public void displayBook(){
+
+    }
+
+    public void updateBook(){
+
+    }
+
+    public void deleteBook(){
+
+    }
+
+    public void searchBook(){
+
+    }
+
 }
