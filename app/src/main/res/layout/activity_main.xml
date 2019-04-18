@@ -2,7 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context="${relativePackage}.${activityClass}" >
+=======
+    tools:context="${relativePackage}.${activityClass}">
+>>>>>>> objek buku
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -11,7 +15,11 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:gravity="center"
+<<<<<<< HEAD
         android:orientation="vertical" >
+=======
+        android:orientation="vertical">
+>>>>>>> objek buku
 
         <TextView
             android:layout_width="wrap_content"

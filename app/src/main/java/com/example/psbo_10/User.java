@@ -5,6 +5,7 @@ public class User {
     private String user_name;
     private String user_pass;
 
+<<<<<<< HEAD
     public User() {
     }
 
@@ -14,4 +15,19 @@ public class User {
         user_pass = pass;
 
         }
+=======
+    public User(String name, String pass ) {
+        this.user_name = name;
+        this.user_pass = pass;
+    }
+
+    public User(Integer id, String name, String pass) {
+        this.user_id = id;
+        this.user_name = name;
+        this.user_pass = pass;
+
+    }
+
+
+>>>>>>> objek buku
 }
