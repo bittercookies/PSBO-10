@@ -201,11 +201,3 @@ public class RegisterActivity extends Activity {
             pDialog.dismiss();
     }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> objek buku
-=======
-
->>>>>>> 34cc5c7874edef66370ac613e86984fcd8c4b91e
