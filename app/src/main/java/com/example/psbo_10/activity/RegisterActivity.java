@@ -202,6 +202,10 @@ public class RegisterActivity extends Activity {
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> objek buku
+=======
+
+>>>>>>> 34cc5c7874edef66370ac613e86984fcd8c4b91e

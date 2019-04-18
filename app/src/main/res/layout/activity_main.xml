@@ -3,10 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 <<<<<<< HEAD
+<<<<<<< HEAD
     tools:context="${relativePackage}.${activityClass}" >
 =======
     tools:context="${relativePackage}.${activityClass}">
 >>>>>>> objek buku
+=======
+    tools:context="${relativePackage}.${activityClass}">
+>>>>>>> 34cc5c7874edef66370ac613e86984fcd8c4b91e
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -16,10 +20,14 @@
         android:layout_marginRight="20dp"
         android:gravity="center"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:orientation="vertical" >
 =======
         android:orientation="vertical">
 >>>>>>> objek buku
+=======
+        android:orientation="vertical">
+>>>>>>> 34cc5c7874edef66370ac613e86984fcd8c4b91e
 
         <TextView
             android:layout_width="wrap_content"
