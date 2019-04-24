@@ -5,14 +5,18 @@ public class User {
     private String user_name;
     private String user_pass;
 
+    //constructor
     public User() {
+        this.user_id = 0;
+        this.user_name = "";
+        this.user_pass = "";
 
     }
 
     public User(Integer id, String name, String pass) {
-        user_id = id;
-        user_name = name;
-        user_pass = pass;
+        this.user_id = id;
+        this.user_name = name;
+        this.user_pass = pass;
 
         }
 }
