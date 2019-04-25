@@ -4,19 +4,22 @@ public class User {
     private Integer user_id;
     private String user_name;
     private String user_pass;
+    private String user_address;
 
     //constructor
     public User() {
         this.user_id = 0;
         this.user_name = "";
         this.user_pass = "";
+        this.user_address = "";
 
     }
 
-    public User(Integer id, String name, String pass) {
+    public setUser(Integer id, String name, String pass, String address) {
         this.user_id = id;
         this.user_name = name;
         this.user_pass = pass;
+        this.user_address = address;
 
-        }
+    }
 }
