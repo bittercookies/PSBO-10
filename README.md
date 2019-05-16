@@ -9,18 +9,28 @@ Seperti yang kita tahu, di dunia perkuliahan setiap semester pasti mengambil mat
 
 ## Lingkungan Pengembangan
 ### 1. Hardware
-a. Processor AMD E1-2500
+a. Processor AMD E1-2500 <br>
 b. RAM 3GB
 
 ### 2. Software
-a. Android Studio (Java)
-b. MySQL
-c. 
-d. 
+a. Android Studio (Java) <br>
+b. MySQL <br>
+c.  <br>
+d.  <br>
 
 ## Dokumentasi
 ### Class Diagram
-
+<img src="https://drive.google.com/drive/u/1/folders/1Nuw9FYmtVBdTXucu-yI08HOS46e5CEue" alt="" border="0"></img>
 ### Use Case Diagram
-
+<img src="" alt="" border="0"></img>
 ### Activity Diagram
++ Activity Diagram CRUD Library
+<img src="" alt="" border="0"></img>
++ Activity Diagram Proses Order
+<img src="" alt="" border="0"></img>
++ Activity Diagram Read and update Profile
+<img src="" alt="" border="0"></img>
++ Activity Diagram Register and Login
+<img src="" alt="" border="0"></img>
++ Activity Diagram Search Buku
+<img src="" alt="" border="0"></img>
