@@ -50,5 +50,13 @@ public class Transaksi {
         return price;
     }
 
+    public displayOrder() {
+
+    }
+
+    public updateOrderStatus() {
+
+    }
+
 
 }
