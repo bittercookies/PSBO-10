@@ -9,8 +9,6 @@ public class BookModel {
     private String book_category;
     private String book_synopsis;
 
-
-
     public void setBook(Integer id, String title, Double price, Integer quantity, String details, String category, String synopsis) {
         this.book_id = id;
         this.book_title = title;
@@ -48,6 +46,7 @@ public class BookModel {
     public String getBook_synopsis() {
         return book_synopsis;
     }
+
 
     public void createBook(){
 
