@@ -10,7 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.psbo_10.Interface.CurrentUserInfo;
 import com.example.psbo_10.R;
 import com.example.psbo_10.Model.User;
 import com.google.firebase.database.DataSnapshot;
@@ -19,8 +18,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.example.psbo_10.Helper.PasswordUtils;
-
-import javax.inject.Inject;
 
 public class RegisterActivity extends Activity {
     private static final String TAG = RegisterActivity.class.getSimpleName();

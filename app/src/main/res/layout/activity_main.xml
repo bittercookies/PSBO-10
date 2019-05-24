@@ -14,7 +14,6 @@
         android:layout_above="@+id/txt_signup"
         android:layout_marginBottom="12dp"
         android:background="@color/btn_login_bg"
-        android:text="@string/btn_signin"
         android:textColor="@android:color/white"
         android:textSize="20sp" />
 
@@ -25,14 +24,10 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="43dp"
-        android:fontFamily="@font/NationalPark-Thin"
+        android:fontFamily="@font/nationalpark_thin"
         android:paddingTop="20dp"
         android:paddingBottom="40dp"
         android:text="@string/btn_link_to_register"
         android:textColor="@android:color/white"
         android:textSize="18sp" />
-
-
-    </LinearLayout>
-
 </RelativeLayout>

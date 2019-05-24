@@ -8,18 +8,18 @@ import android.widget.TextView;
 import com.example.psbo_10.Interface.ItemClickListener;
 import com.example.psbo_10.R;
 
-public class MenuViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+public class BookViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-    public TextView txtMenuName;
-    public ImageView imageView;
+    public TextView book_name;
+    public ImageView book_image;
 
     private ItemClickListener itemClickListener;
 
-    public MenuViewHolder(View itemView) {
+    public BookViewHolder(View itemView) {
         super(itemView);
 
-        txtMenuName = (TextView) itemView.findViewById(R.id.menu_name);
-        imageView = (ImageView) itemView.findViewById(R.id.menu_image);
+        book_name = (TextView) itemView.findViewById(R.id.book_name);
+        book_image = (ImageView) itemView.findViewById(R.id.book_image);
 
         itemView.setOnClickListener(this);
     }

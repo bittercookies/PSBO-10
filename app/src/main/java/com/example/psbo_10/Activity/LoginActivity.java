@@ -16,7 +16,6 @@ import android.widget.Toast;
 
 import com.example.psbo_10.R;
 import com.example.psbo_10.Model.User;
-import com.example.psbo_10.Interface.CurrentUserInfo;
 import com.example.psbo_10.Helper.PasswordUtils;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -24,7 +23,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import javax.inject.Inject;
 
 public class LoginActivity extends Activity {
     private static final String TAG = RegisterActivity.class.getSimpleName();
@@ -41,6 +39,9 @@ public class LoginActivity extends Activity {
         inputPassword = (EditText) findViewById(R.id.password);
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnLinkToRegister = (Button) findViewById(R.id.btnLinkToRegisterScreen);
+
+        // Session manager
+        User.setCurrentUser(User.getCurrentUser());
 
         // Init Firebase
         final FirebaseDatabase database = FirebaseDatabase.getInstance();

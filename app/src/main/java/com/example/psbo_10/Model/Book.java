@@ -1,52 +1,58 @@
 package com.example.psbo_10.Model;
 
 public class Book {
-    private Integer book_id;
-    private String book_title;
-    private Double book_price;
-    private Integer book_quantity;
-    private String book_details;
-    private String book_category;
-    private String book_synopsis;
+    private String title, image, price, cat_id, synopsis;
 
-    public void setBook(Integer id, String title, Double price, Integer quantity, String details, String category, String synopsis) {
-        this.book_id = id;
-        this.book_title = title;
-        this.book_price = price;
-        this.book_quantity = quantity;
-        this.book_details = details;
-        this.book_category = category;
-        this.book_synopsis = synopsis;
+    public Book(){
     }
 
-    public Integer getBook_id() {
-        return book_id;
+    public Book(String title, String image, String price, String cat_id, String synopsis) {
+        this.title = title;
+        this.image = image;
+        this.price = price;
+        this.cat_id = cat_id;
+        this.synopsis = synopsis;
     }
 
-    public String getBook_title() {
-        return book_title;
+    public String getTitle() {
+        return title;
     }
 
-    public Double getBook_price() {
-        return book_price;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public Integer getBook_quantity() {
-        return book_quantity;
+    public String getImage() {
+        return image;
     }
 
-    public String getBook_details() {
-        return book_details;
+    public void setImage(String image) {
+        this.image = image;
     }
 
-    public String getBook_category() {
-        return book_category;
+    public String getPrice() {
+        return price;
     }
 
-    public String getBook_synopsis() {
-        return book_synopsis;
+    public void setPrice(String price) {
+        this.price = price;
     }
 
+    public String getCat_id() {
+        return cat_id;
+    }
+
+    public void setCat_id(String cat_id) {
+        this.cat_id = cat_id;
+    }
+
+    public String getSynopsis() {
+        return synopsis;
+    }
+
+    public void setSynopsis(String synopsis) {
+        this.synopsis = synopsis;
+    }
 
     public void createBook(){
 

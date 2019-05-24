@@ -8,9 +8,11 @@ import com.example.psbo_10.ViewHolder.MenuViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.squareup.picasso.Picasso;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
@@ -32,6 +34,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     DatabaseReference category;
 
     private TextView txtName;
+    FirebaseRecyclerAdapter<Category, MenuViewHolder> adapter;
 
     RecyclerView recycler_menu;
     RecyclerView.LayoutManager layoutManager;
@@ -41,7 +44,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_home);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Menu");
+        toolbar.setTitle("Home");
         setSupportActionBar(toolbar);
 
         // Init Firebase
@@ -82,15 +85,20 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void loadMenu() {
-        FirebaseRecyclerAdapter<Category, MenuViewHolder> adapter = new FirebaseRecyclerAdapter<Category, MenuViewHolder>(Category.class, R.layout.menu_item, MenuViewHolder.class, category) {
+        adapter = new FirebaseRecyclerAdapter<Category, MenuViewHolder>(Category.class, R.layout.menu_item, MenuViewHolder.class, category) {
             @Override
             protected void populateViewHolder(MenuViewHolder viewHolder, Category model, int position) {
                 viewHolder.txtMenuName.setText(model.getName());
+                Picasso.with(getBaseContext()).load(model.getImage()).into(viewHolder.imageView);
                 final Category clickItem = model;
                 viewHolder.setItemClickListener(new ItemClickListener() {
                     @Override
                     public void onClick(View view, int position, boolean isLongClick) {
-                        Toast.makeText(HomeActivity.this, "" + clickItem.getName(), Toast.LENGTH_SHORT).show();
+                        // Get categoryID to send to new Activity
+                        Intent bookByCategory = new Intent(HomeActivity.this, BookByCategory.class);
+                        // getKey() because cat_id is the key of Category
+                        bookByCategory.putExtra("cat_id", adapter.getRef(position).getKey());
+                        startActivity(bookByCategory);
                     }
                 });
             }
