@@ -15,6 +15,12 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp" >
 
+        <ImageView
+            android:src="@drawable/logo_putih"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="200dp" />
+
         <EditText
             android:id="@+id/name"
             android:layout_width="fill_parent"
@@ -34,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:background="@color/white"
-            android:hint="@string/hint_email"
+            android:hint="@string/hint_phone"
             android:inputType="textEmailAddress"
             android:padding="10dp"
             android:singleLine="true"
