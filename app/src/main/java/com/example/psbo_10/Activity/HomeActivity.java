@@ -9,6 +9,7 @@ import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -31,7 +32,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     DatabaseReference category;
 
     private TextView txtName;
-    private User user = User.getCurrentUser();
 
     RecyclerView recycler_menu;
     RecyclerView.LayoutManager layoutManager;
@@ -69,7 +69,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         //Show username on navi
         View headerView = navigationView.getHeaderView(0);
         txtName = (TextView) headerView.findViewById(R.id.txtName);
-        txtName.setText(user.getName());
+        txtName.setText(User.getCurrentUser().getName());
 
         //Load menu
         recycler_menu = (RecyclerView) findViewById(R.id.recycler_menu);
@@ -133,6 +133,11 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
         } else if (id == R.id.nav_lib) {
 
+        } else if (id == R.id.nav_logout){
+            User.setCurrentUser(null);
+            Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
+            startActivity(intent);
+            finish();
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
