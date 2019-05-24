@@ -1,13 +1,18 @@
-package com.example.psbo_10.helper;
-
+package com.example.psbo_10.Helper;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.util.Log;
 
+import com.example.psbo_10.Model.User;
+
+import javax.inject.Singleton;
+
+@Singleton
 public class SessionManager {
     // LogCat tag
     private static String TAG = SessionManager.class.getSimpleName();
+    private User user;
 
     // Shared Preferences
     SharedPreferences pref;
@@ -42,4 +47,13 @@ public class SessionManager {
     public boolean isLoggedIn(){
         return pref.getBoolean(KEY_IS_LOGGEDIN, false);
     }
+
+    void setCurrentUser(User user){
+        user = user;
+    }
+
+    public String getName() {
+        return user.getName();
+    }
+
 }

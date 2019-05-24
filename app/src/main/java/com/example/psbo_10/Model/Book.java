@@ -1,6 +1,6 @@
-package com.example.psbo_10;
+package com.example.psbo_10.Model;
 
-public class BookModel {
+public class Book {
     private Integer book_id;
     private String book_title;
     private Double book_price;

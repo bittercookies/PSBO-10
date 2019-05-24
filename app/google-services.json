@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "944338562678",
+    "firebase_url": "https://psbo10.firebaseio.com",
+    "project_id": "psbo10",
+    "storage_bucket": "psbo10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944338562678:android:aee1cdf059b7137e",
+        "android_client_info": {
+          "package_name": "com.example.psbo_10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944338562678-f2ka5b1oknr7qnqhc0sdvidh4nb1vh8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.psbo_10",
+            "certificate_hash": "64f77be9937ae64b9608f4df95b6169788ff5b2b"
+          }
+        },
+        {
+          "client_id": "944338562678-gvrkalm3qa4tek44qhujcvc5brtbac3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmgGT1jr8zvDhPCopKNbzZ0KQQItyM1PQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944338562678-gvrkalm3qa4tek44qhujcvc5brtbac3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

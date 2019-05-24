@@ -1,4 +1,4 @@
-package com.example.psbo_10;
+package com.example.psbo_10.Model;
 
 public class Transaksi {
     private Integer transaksi_id;
@@ -50,11 +50,11 @@ public class Transaksi {
         return price;
     }
 
-    public displayOrder() {
+    public void displayOrder() {
 
     }
 
-    public updateOrderStatus() {
+    public void updateOrderStatus() {
 
     }
 

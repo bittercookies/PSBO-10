@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/bg_login"
@@ -15,14 +15,20 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp" >
 
+        <ImageView
+            android:src="@drawable/logo_putih"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="200dp" />
+
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/phone"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:background="@color/white"
-            android:hint="@string/hint_email"
-            android:inputType="textEmailAddress"
+            android:hint="@string/hint_phone"
+            android:inputType="number|phone"
             android:padding="10dp"
             android:singleLine="true"
             android:textColor="@color/input_login"
@@ -67,4 +73,4 @@
             android:textSize="15dp" />
     </LinearLayout>
 
-</LinearLayout>
+</RelativeLayout>

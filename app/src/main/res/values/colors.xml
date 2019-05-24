@@ -3,6 +3,7 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="overlayDark">#BF000000</color>
 
     <color name="bg_login">#227fc3</color>
     <color name="bg_register">#227fc3</color>
@@ -16,5 +17,4 @@
     <color name="btn_login">#ffffff</color>
     <color name="lbl_name">#333333</color>
     <color name="btn_logout_bg">#ff6861</color>
-    <color name="colorbutton">#227fc3</color>
 </resources>
