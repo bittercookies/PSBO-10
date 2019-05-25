@@ -21,29 +21,29 @@ c. SQLite <br>
 ## Dokumentasi
 ### Class Diagram
 
-  ![Class Diagram](Dokumentasi/Class Diagram.jpg)
+  ![Class Diagram](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Class%20Diagram.jpg)
 
 ### Use Case Diagram
 
-  ![Use Case Diagram](Dokumentasi/Use Case Diagram.jpg)
+  ![Use Case Diagram](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Use%20case%20diagram.jpg)
 
 ### Activity Diagram
 + Activity Diagram CRUD Library
 
-  ![Activity Diagram CRUD Library](Dokumentasi/Activity Diagram CRUD Library.jpg)
+  ![Activity Diagram CRUD Library](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Activity%20Diagram%20CRUD%20Library.jpg)
 
 + Activity Diagram Proses Order
 
-  ![Activity Diagram Proses Order](Dokumentasi/Activity Diagram Proses Order.jpg)
+  ![Activity Diagram Proses Order](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Activity%20Diagram%20Process%20Order.jpg)
 
 + Activity Diagram Read and update Profile
 
-  ![Activity Diagram Read & Update Profile](Dokumentasi/Activity Diagram Read & Update Profile.jpg)
+  ![Activity Diagram Read & Update Profile](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Activity%20Diagram%20Read%20%26%20Update%20Profile.jpg)
 
 + Activity Diagram Register and Login
 
-![Activity Diagram Register dan Login](Dokumentasi/Activity Diagram Register dan Login.jpg)
+![Activity Diagram Register dan Login](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Activity%20Diagram%20Register%20dan%20Login.jpg)
 
 + Activity Diagram Search Buku
 
-![Activity Diagram Search Buku](Dokumentasi/Activity Diagram Search Buku.jpg)
+![Activity Diagram Search Buku](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Activity%20Diagram%20Search%20Book.jpg)
