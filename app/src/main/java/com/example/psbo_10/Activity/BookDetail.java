@@ -57,8 +57,6 @@ public class BookDetail extends AppCompatActivity {
                         currentBook.getPrice(),
                         numberButton.getNumber()
                 ));
-
-                Toast.makeText(BookDetail.this, "Masuk ke keranjang", Toast.LENGTH_SHORT).show();
             }
         });
 

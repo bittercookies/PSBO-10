@@ -22,7 +22,7 @@ public class Database extends SQLiteAssetHelper {
         SQLiteDatabase db = getReadableDatabase();
         SQLiteQueryBuilder qb = new SQLiteQueryBuilder();
 
-        String[] sqlSelect={"ProductName", "ProductId", "Quantity", "Price"};
+        String[] sqlSelect={"ProductName", "ProductId", "Price", "Duration"};
         String sqlTable="OrderDetail";
 
         qb.setTables(sqlTable);
@@ -43,7 +43,7 @@ public class Database extends SQLiteAssetHelper {
 
     public void addToCart(Order order) {
         SQLiteDatabase db = getReadableDatabase();
-        String query = String.format("INSERT INTO OrderDetail(ProductId, ProductName, Price, Duration) VALUES('%s','%s','%s','%s','%s');",
+        String query = String.format("INSERT INTO OrderDetail(ProductId, ProductName, Price, Duration) VALUES('%s','%s','%s','%s');",
                 order.getProductId(),
                 order.getProductName(),
                 order.getPrice(),

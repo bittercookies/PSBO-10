@@ -57,7 +57,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
             public void onClick(View view) {
                 Intent cartIntent = new Intent(HomeActivity.this, Cart.class);
                 startActivity(cartIntent);
-
+                finish();
             }
         });
 
