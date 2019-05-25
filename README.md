@@ -9,28 +9,41 @@ Seperti yang kita tahu, di dunia perkuliahan setiap semester pasti mengambil mat
 
 ## Lingkungan Pengembangan
 ### 1. Hardware
-a. Processor AMD E1-2500 <br>
-b. RAM 3GB
+a. Windows 10 Home <br>
+b. Intel Core i7, NVIDIA GTX950M <br>
+c. RAM 8GB
 
 ### 2. Software
 a. Android Studio (Java) <br>
-b. MySQL <br>
-c.  <br>
-d.  <br>
+b. Firebase <br>
+c. SQLite <br>
 
 ## Dokumentasi
 ### Class Diagram
-<img src="https://drive.google.com/drive/u/1/folders/1Nuw9FYmtVBdTXucu-yI08HOS46e5CEue" alt="" border="0"></img>
+
+  ![Class Diagram](Dokumentasi/Class Diagram.jpg)
+
 ### Use Case Diagram
-<img src="" alt="" border="0"></img>
+
+  ![Use Case Diagram](Dokumentasi/Use Case Diagram.jpg)
+
 ### Activity Diagram
 + Activity Diagram CRUD Library
-<img src="" alt="" border="0"></img>
+
+  ![Activity Diagram CRUD Library](Dokumentasi/Activity Diagram CRUD Library.jpg)
+
 + Activity Diagram Proses Order
-<img src="" alt="" border="0"></img>
+
+  ![Activity Diagram Proses Order](Dokumentasi/Activity Diagram Proses Order.jpg)
+
 + Activity Diagram Read and update Profile
-<img src="" alt="" border="0"></img>
+
+  ![Activity Diagram Read & Update Profile](Dokumentasi/Activity Diagram Read & Update Profile.jpg)
+
 + Activity Diagram Register and Login
-<img src="" alt="" border="0"></img>
+
+![Activity Diagram Register dan Login](Dokumentasi/Activity Diagram Register dan Login.jpg)
+
 + Activity Diagram Search Buku
-<img src="" alt="" border="0"></img>
+
+![Activity Diagram Search Buku](Dokumentasi/Activity Diagram Search Buku.jpg)
