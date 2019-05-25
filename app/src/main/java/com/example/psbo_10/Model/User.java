@@ -3,15 +3,14 @@ package com.example.psbo_10.Model;
 public class User {
     private String name;
     private String password;
+    private String phone;
     private String salt;
     private static User currentUser;
-
 
     public User(){
 
     }
 
-    //constructor
     public User(String name, String password, String salt) {
         this.name = name;
         this.password = password;
@@ -32,6 +31,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getSalt(){ return salt; }

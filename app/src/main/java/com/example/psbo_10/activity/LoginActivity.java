@@ -76,6 +76,7 @@ public class LoginActivity extends Activity {
                             // Get user information
                             mDialog.dismiss();
                             User user = dataSnapshot.child(inputPhone.getText().toString()).getValue(User.class);
+                            user.setPhone(inputPhone.getText().toString());
 
                             if (PasswordUtils.verifyPassword(inputPassword.getText().toString(), user.getPassword(), user.getSalt())) {
                                 Toast.makeText(LoginActivity.this, "Login berhasil!", Toast.LENGTH_SHORT).show();

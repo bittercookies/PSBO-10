@@ -73,7 +73,6 @@ public class RegisterActivity extends Activity {
                             User user = new User(inputName.getText().toString(),
                                     PasswordUtils.hashPassword(inputPassword.getText().toString(), salt).get(),
                                     salt);
-
                             table_user.child(inputPhone.getText().toString()).setValue(user);
                             Toast.makeText(RegisterActivity.this, "Register berhasil! Silakan login.", Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(

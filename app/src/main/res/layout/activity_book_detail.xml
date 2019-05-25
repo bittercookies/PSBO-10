@@ -85,7 +85,7 @@
                 android:padding="12dp"
                 android:text="Book Title"
                 android:textColor="@color/colorPrimary"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -98,6 +98,32 @@
                 android:textColor="@color/colorPrimary"
                 android:textSize="20sp"
                 android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="18dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="Lama pinjam"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/number_button"
+                    android:layout_marginLeft="8dp"
+                    app:textSize="8sp"/>
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -112,10 +138,11 @@
             <TextView
                 android:id="@+id/book_synopsis"
                 android:layout_marginTop="12dp"
+                android:padding="8dp"
                 android:lineSpacingMultiplier="1.5"
                 android:text="Description."
                 android:textColor="@android:color/black"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 >
