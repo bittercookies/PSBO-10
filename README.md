@@ -9,28 +9,41 @@ Seperti yang kita tahu, di dunia perkuliahan setiap semester pasti mengambil mat
 
 ## Lingkungan Pengembangan
 ### 1. Hardware
-a. Processor AMD E1-2500 <br>
-b. RAM 3GB
+a. Windows 10 Home <br>
+b. Intel Core i7, NVIDIA GTX950M <br>
+c. RAM 8GB
 
 ### 2. Software
 a. Android Studio (Java) <br>
-b. MySQL <br>
-c.  <br>
-d.  <br>
+b. Firebase <br>
+c. SQLite <br>
 
 ## Dokumentasi
 ### Class Diagram
-<img src="https://drive.google.com/drive/u/1/folders/1Nuw9FYmtVBdTXucu-yI08HOS46e5CEue" alt="" border="0"></img>
+
+  ![Class Diagram](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Class%20Diagram.jpg)
+
 ### Use Case Diagram
-<img src="" alt="" border="0"></img>
+
+  ![Use Case Diagram](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Use%20case%20diagram.jpg)
+
 ### Activity Diagram
 + Activity Diagram CRUD Library
-<img src="" alt="" border="0"></img>
+
+  ![Activity Diagram CRUD Library](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Activity%20Diagram%20CRUD%20Library.jpg)
+
 + Activity Diagram Proses Order
-<img src="" alt="" border="0"></img>
+
+  ![Activity Diagram Proses Order](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Activity%20Diagram%20Process%20Order.jpg)
+
 + Activity Diagram Read and update Profile
-<img src="" alt="" border="0"></img>
+
+  ![Activity Diagram Read & Update Profile](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Activity%20Diagram%20Read%20%26%20Update%20Profile.jpg)
+
 + Activity Diagram Register and Login
-<img src="" alt="" border="0"></img>
+
+![Activity Diagram Register dan Login](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Activity%20Diagram%20Register%20dan%20Login.jpg)
+
 + Activity Diagram Search Buku
-<img src="" alt="" border="0"></img>
+
+![Activity Diagram Search Buku](https://github.com/bittercookies/PSBO-10/blob/master/Dokumentasi/Activity%20Diagram%20Search%20Book.jpg)
